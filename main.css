@@ -598,7 +598,7 @@ select {
 .features-two {
   background-color: #f6f5f3;
   background-repeat: no-repeat;
-  background-image: url("blocks/features-two/images/features-two-image.jpg");
+  background-image: url("blocks/features-two/images/Features-two-image.jpg");
   background-position: center bottom;
   padding-bottom: 350px;
 }
