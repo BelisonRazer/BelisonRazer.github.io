@@ -1,0 +1,44 @@
+.title {
+  font-family: 'Exo', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(40, 40, 40);
+  letter-spacing: 0.04em;
+
+  &_dots {
+    &:after {
+      display: inline-block;
+      margin-left: 8px;
+
+      color: rgb(255, 109, 109);
+      letter-spacing: -2px;
+
+      content: '. . . .'
+    }
+  }
+
+  &_dots-white {
+    &:after {
+      display: inline-block;
+      margin-left: 8px;
+
+      color: #ffffff;
+      letter-spacing: -2px;
+
+      content: '. . .'
+    }
+  }
+
+  &_small {
+    font-size: 22px;
+  }
+
+  &_small-white {
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+  &_white {
+    color: #ffffff;
+  }
+}

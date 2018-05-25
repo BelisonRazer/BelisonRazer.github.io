@@ -1,0 +1,36 @@
+@triangleWidth: 568px;
+
+.platform {
+  position: relative;
+  background-color: white;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: @triangleWidth;
+    height: 100%;
+
+    background: #ececec;
+
+    content: '';
+  }
+
+  &__content {
+    padding: 190px @triangleWidth 190px 0;
+    background-color: white;
+  }
+
+  &__label {
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    margin-bottom: 35px;
+  }
+
+  &__text {
+
+  }
+}
