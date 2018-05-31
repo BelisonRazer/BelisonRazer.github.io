@@ -815,12 +815,12 @@ select {
   display: inline-block;
   margin-right: 35px;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1191px) {
   .header__heading-media-small {
     display: none;
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1190px) {
   .header {
     width: 95%;
   }
@@ -849,6 +849,116 @@ select {
   }
   .header__heading-media-small {
     font-size: 143%;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .platform.section {
+    min-width: 400px;
+  }
+  .platform__content {
+    padding: 5% 25% 5% 25%;
+  }
+  .platform:before {
+    display: none;
+  }
+  .triangle {
+    display: none;
+  }
+  .content {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .platform__content {
+    padding: 8% 20% 8% 20%;
+  }
+  .platform__label {
+    font-size: 80%;
+  }
+  .platform__title {
+    font-size: 170%;
+  }
+  .platform__text {
+    font-size: 90%;
+  }
+  .content {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .platform__content {
+    padding: 8% 15% 8% 15%;
+  }
+  .platform__title {
+    font-size: 140%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .platform__content {
+    padding: 8% 8% 8% 8%;
+  }
+  .platform__title {
+    font-size: 130%;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .features.section {
+    min-width: 400px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .features__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .features__inner {
+    padding: 8% 0;
+  }
+  .features__item_two {
+    margin-bottom: 30px;
+  }
+  .features__item_one {
+    margin-bottom: 30px;
+  }
+  .features__image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 991px) {
+  .features__title-inner {
+    font-size: 170%;
+  }
+  .features__label {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .features__title-inner {
+    font-size: 140%;
+    margin-bottom: 12%;
+  }
+  .features__title {
+    font-size: 100%;
+  }
+  .features__text {
+    font-size: 85%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .features__title-inner {
+    font-size: 130%;
   }
 }
 body {
