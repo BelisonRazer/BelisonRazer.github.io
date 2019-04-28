@@ -283,7 +283,6 @@ select {
   padding: 250px 0;
 }
 .header__content {
-  width: 709px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -301,6 +300,7 @@ select {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 709px;
 }
 .header__heading {
   margin-bottom: 40px;
@@ -597,9 +597,6 @@ select {
   text-align: center;
 }
 .clients__item {
-  min-width: 330px;
-  width: -webkit-calc(23.333%);
-  width: calc(23.333%);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -617,6 +614,9 @@ select {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  min-width: 330px;
+  width: -webkit-calc(23.333%);
+  width: calc(23.333%);
 }
 .clients__picture {
   width: 76px;
@@ -843,9 +843,9 @@ select {
 }
 .footer__button {
   position: relative;
+  top: 2px;
   margin-left: -10px;
   margin-bottom: 25px;
-  top: 2px;
   background-image: url("blocks/footer/images/button-arrow.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -1329,6 +1329,7 @@ select {
 @media screen and (max-width: 1220px) {
   .footer.section {
     min-width: 325px;
+    padding: 0;
   }
   .footer__triangle {
     border-right: 225px solid #ff8a8a;
